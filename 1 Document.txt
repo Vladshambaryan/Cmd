@@ -1,1 +1,3 @@
 #COMENT
+name = "vlad"
+print(name)
