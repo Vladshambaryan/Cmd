@@ -50,4 +50,43 @@ function checkForFactor (base, factor) {
 const century = year => Math.ceil(year/100)
 
 ----------------------------------------------------------------------------------------
+const add = (a, b) => a + b;
+const subt = (a, b) => a - b;
+const divide = (a, b) => a / b;
+const multiply = (a, b) => a * b;
+const mod = (a, b) => a % b;
+const exponent = (a, b) => a ** b;
+
+------------------------------------------------------------------------------------------
+const greet = name => `Hello, ${name} how are you doing today?`;
+
+---------------------------------------------------------------------------------------------
+function main (verb, noun) {
+  return verb + noun
+}
+
+-----------------------------------------------------------------------------------------------
+function fiveLine(s){
+  //coding here...
+  s = s.trim();
+  var tmp = s;
+  var res = [s];
+  
+  for (var i = 1; i < 5; i++) {
+   	res.push(s += tmp);
+  } 
+  return res.join("\n");
+}
+
+-----------------------------------------------------------------------------------------------------------
+
+sortme = function( names ){
+  return names.sort()
+}
+
+------------------------------------------------------------------------------------------------------
+
+
+
+
 
